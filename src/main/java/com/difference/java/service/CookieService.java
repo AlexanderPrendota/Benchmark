@@ -1,9 +1,9 @@
-package com.difference.service;
+package com.difference.java.service;
 
-import com.difference.repository.CookieRepository;
+import com.difference.java.repository.CookieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.difference.model.Cookie;
+import com.difference.java.model.Cookie;
 
 import java.util.ArrayList;
 import java.util.List;

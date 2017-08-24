@@ -1,6 +1,7 @@
-package com.difference.service
+package com.difference.java.service
 
-import com.difference.model.Chocolate
+import com.difference.kotlin.model.Chocolate
+import com.difference.kotlin.service.ChocolateService
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.springframework.beans.factory.annotation.Autowired

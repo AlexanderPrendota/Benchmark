@@ -1,7 +1,7 @@
 package com.difference;
 
-import com.difference.service.ChocolateServiceTest;
-import com.difference.service.CookieServiceTest;
+import com.difference.java.service.ChocolateServiceTest;
+import com.difference.java.service.CookieServiceTest;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
@@ -10,6 +10,6 @@ import org.junit.runners.Suite;
 		CookieServiceTest.class,
 		ChocolateServiceTest.class
 })
-public class DemoApplicationTests {
+public class KotlinTestApplicationTests {
 
 }

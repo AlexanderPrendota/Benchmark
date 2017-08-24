@@ -1,7 +1,7 @@
-package com.difference.service
+package com.difference.kotlin.service
 
-import com.difference.model.Chocolate
-import com.difference.repository.ChocolateRepository
+import com.difference.kotlin.model.Chocolate
+import com.difference.kotlin.repository.ChocolateRepository
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 import java.util.ArrayList

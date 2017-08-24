@@ -1,26 +1,30 @@
-package com.difference.model
+package com.difference.java.model;
+
+import lombok.Data;
 
 import javax.persistence.*;
 
 /**
  * Created by aleksandrprendota on 05.08.17.
  */
+
+@Data
 @Entity
-@Table(name = "CHOCOLATE")
-class Chocolate {
+@Table(name = "COOKIE")
+public class Cookie {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "ID", nullable = false)
-    var id: Long = 0
-
-    @Column(name = "NAME")
-    var name: String? = null
+    public long id;
 
     @Column(name = "WIEGHT")
-    var weight: Int = 0
+    public int weight;
 
     @Column(name = "TYPE")
-    var type: String? = null
+    public String type;
+
+    @Column(name = "CEREAL")
+    public String sereal;
 
 }

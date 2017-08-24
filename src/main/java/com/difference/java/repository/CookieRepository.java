@@ -1,6 +1,6 @@
-package com.difference.repository;
+package com.difference.java.repository;
 
-import com.difference.model.Cookie;
+import com.difference.java.model.Cookie;
 import org.springframework.data.repository.CrudRepository;
 
 

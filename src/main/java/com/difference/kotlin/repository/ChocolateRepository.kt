@@ -1,6 +1,6 @@
-package com.difference.repository
+package com.difference.kotlin.repository
 
-import com.difference.model.Chocolate
+import com.difference.kotlin.model.Chocolate
 import org.springframework.data.repository.CrudRepository
 
 /**
